@@ -1,0 +1,117 @@
+body {
+    width: 450px;
+    height: 562px;
+}
+
+.greeting {
+
+}
+
+.progressContainer{
+
+}
+
+
+.actionInput{
+}
+.actionItems{
+
+}
+
+
+.greeting img{
+    height: 100px;
+    position: absolute;
+    top: 5%;
+    right: 0;
+}
+
+.greeting__type{
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.greeting__name {
+    color: gray;
+    font-size: 1.5rem;
+}
+
+#container {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.progressContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.form-control{
+    border-radius: 10px;
+    background-color: lightgray;
+    border-style: solid;
+    border-color:black;
+    border-width: 3px;
+}
+
+.actionInput__suggestions{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.btn-outline-dark{
+    border-width: 3px;
+    border-radius: 6px;
+    background-color: lightgray;
+    font-weight: 700;
+}
+
+.actionItem__item{
+    background: #F6F6F6;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 12px;
+}
+
+.actionItem__main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actionItem__text{
+    flex: 1;
+    word-break: break-all;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color:#727272;
+}
+
+.actionItem__checkBox{
+    display: flex;
+    border: 3px solid rgba(151, 151, 151, .27);
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.actionItem__checkBox i{
+    color: #56e452;
+}
+
+.actionItem__delete{
+  text-align: center;
+  width: 40px;
+  color: rgba(151, 151, 151, .27);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
