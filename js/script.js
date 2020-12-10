@@ -39,7 +39,6 @@ const add = (submission) =>{
       }else{
         items.push(actionItem);
       }
-      items.push(actionItem);
       chrome.storage.sync.set({
         actionitems: items
       }, () => {
